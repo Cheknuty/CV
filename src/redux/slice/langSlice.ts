@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { themeToggle } from "./themeSlice";
 
 const langSlice = createSlice({
     name: 'lang',

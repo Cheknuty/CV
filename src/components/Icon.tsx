@@ -3,7 +3,7 @@ type Icon = {
     color: string;
     onClick?: (e: React.MouseEvent<SVGSVGElement, MouseEvent>) => void
 }
-
+ // eslint-disable-next-line
 export function Icon({ width = 167, color, onClick }: Icon) {
     return (
 
